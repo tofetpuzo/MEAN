@@ -27,4 +27,5 @@ Data Link: Its pdu is frame; this layer is concerned with successfully transmitt
 
 Physical : its PDU is Bit symbols which is primarily concerned about the transmission of raw bits
 
+During the implementation of MEAN, I learnt about the "LOAD BALANCING", and its effects on traffic to the back-end server or the client server side. During the implementation I considered the task size , the nature tasks, dependencies, segragation of task.
 
