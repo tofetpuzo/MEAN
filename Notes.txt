@@ -35,4 +35,11 @@ Internet-Based Services
 
 2. Server Load Balancer: This is usually a software program that is listening on the port for external clients to connect to its accessories. The load-balancer forwards requests to one of the backend servers which replies to the load balancer.
 
+3. Scheduling Algorithms 
+Additional factors such as server's reported loads, least response times, up/down status(determined by a monitoring poll of a kind), number of active connections, geographical location.
 
+The load balancer uses either static or dynamic Algorithms.
+
+Static Algorithms is static when it does not take into acount the state of the system for the distribution of tasks.
+
+Dynamic Algorithms takes into account the current load of each oof the computing units in the system . In this approach, tasks can be moved dynamically from one overloaded node to an underloaded node.
