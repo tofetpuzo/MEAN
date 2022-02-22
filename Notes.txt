@@ -11,4 +11,20 @@ There are basically 7 layers in OSI Moodel:
 2. Data Link Layer
 1. Physical Layer
 
-Layers 4 to 7 uses the protocol data unit(PDU) and their basic function is to provide an Application interface by which the client and server can communicate. This is basically a way of transmitting Data.
+Layers 1 to 7 uses the protocol data unit(PDU) 
+
+Application: This layer is concerned with this basic function which is to provide an Application interface by which the client and server can communicate. 
+
+Presentation: Translation of data between Router(or service provider) and an application; This is usually characterised by decrypting and encrypting data.
+
+Session: This is a layer which manages the communication exchange between two end points such as the server or client.
+
+Transmission : Layer 4 which is transport layer has a PDU ->  Segment, Datagram. This layer is used for reliable communication or transmission of data from points on a network.
+
+Network : its PDU is packet, This is a way of structuring and managing muiltple node network including addressing and routing.
+
+Data Link: Its pdu is frame; this layer is concerned with successfully transmitting data frames between two physical devices connected through a physical layer.
+
+Physical : its PDU is Bit symbols which is primarily concerned about the transmission of raw bits
+
+
