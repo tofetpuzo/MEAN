@@ -29,3 +29,10 @@ Physical : its PDU is Bit symbols which is primarily concerned about the transmi
 
 During the implementation of MEAN, I learnt about the "LOAD BALANCING", and its effects on traffic to the back-end server or the client server side. During the implementation I considered the task size , the nature tasks, dependencies, segragation of task.
 
+Uses cases of Load Balancing
+Internet-Based Services
+1. Round-Robin DNS: muiltple ip address are associated within a single domain name, if it is assigned to clients with a short expiration so the client is more likely to use a different IP, when next it connects to the internet service being requested for.
+
+2. Server Load Balancer: This is usually a software program that is listening on the port for external clients to connect to its accessories. The load-balancer forwards requests to one of the backend servers which replies to the load balancer.
+
+
