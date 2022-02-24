@@ -15,7 +15,7 @@ Then, the certificates are then installed.
 
 `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash`.
 
-1. To install Node.js, I created an environment for it which usually `sudo easy_install nodeenv`
+1. To install Node.js, I created an environment for it which usually `sudo pip nodeenv`
 2. 
 * 
 
