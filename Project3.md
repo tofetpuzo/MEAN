@@ -36,16 +36,24 @@ The following commands were ran.
     `echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list`
 
 The next step is to use these commands to install MongDB. 
-`sudo apt install -y mongodb`
-`sudo service mongodb start`
-`sudo systemctl status mongodb`
-`sudo apt install -y npm`
+    `sudo apt install -y mongodb`
+    `sudo service mongodb start`
+    `sudo systemctl status mongodb`
+    `sudo apt install -y npm`
 
-For express to effective read data from the body of the html documents, we have to install body parser modules.
+For express to effective read data from the body of the html documents, we have to install body parser modules. To install body-parser.
 
-`sudo npm install body-parser`
+    `sudo npm install body-parser`
 
-2. The 
+2. I then created a directory and cd into Books.
+
+    `mkdir Books && cd Books`, after which I go initialized the NPM project.
+
+3. The next step is to created a file called server.js
+`vi server.js` and insert code which initializes the server to allow it listen on a certain port.
+
+4. Express allows information to be passed to and from the MongDB database.
+
 
 
 
