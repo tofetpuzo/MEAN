@@ -15,7 +15,7 @@ Then, the certificates are then installed.
 
 `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash`.
 
-1. To install Node.js, I created an environment for it which usually `sudo pip nodeenv`
+1. To install Node.js, I had to create an virtual environment, however the ubuntu ec2 does not have the pip package, hence I had to install it "sudo apt install python3-pip"    which usually `sudo pip nodeenv`
 2. 
 * 
 
