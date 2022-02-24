@@ -1,0 +1,11 @@
+This error can  be solved using the following commands.
+
+`sudo apt-get install python-properties-common python2 g++ make`
+
+
+npm : Depends: nodejs (>= 6.11~)
+       Depends: node-abbrev (>= 1.1.1~) but it is not going to be installed
+       Depends: node-ajv but it is not going to be installed
+       Depends: node-ansi but it is not going to be installed
+       Depends: node-ansi-regex (>= 3.0~) but it is not going to be installed
+       Depends: node-ansi-styles but it is not going to be installed
