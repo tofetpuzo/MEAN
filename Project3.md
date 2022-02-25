@@ -80,6 +80,8 @@ Angular JS is a front-end web framework that creates dynamic views for websites.
 
 ![server](./images/server.png)
 
+4. The last step is to use the DNS name to access the website. So inputs can be made to see if the application is running.
+
 
 
 
